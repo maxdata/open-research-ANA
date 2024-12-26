@@ -7,7 +7,7 @@ from langchain_core.tools import tool
 from pydantic import BaseModel, Field
 from langchain_openai import ChatOpenAI
 
-from copilotkit.langchain import copilotkit_emit_state, copilotkit_customize_config, copilotkit_emit_message
+from copilotkit.langchain import copilotkit_emit_state
 from langchain_core.runnables import RunnableConfig
 
 
